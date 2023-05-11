@@ -16,14 +16,14 @@ class PantallaDos extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
-                    'Aaron Mota',
+                    'Jesus Jurado',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
                 Text(
-                  'Comprador fanatico de frutas',
+                  'La mejor tienda deportiva',
                   style: TextStyle(
                     color: Colors.grey[500],
                   ),
@@ -33,7 +33,7 @@ class PantallaDos extends StatelessWidget {
           ),
           /*3*/
           Icon(
-            Icons.apple,
+            Icons.star,
             color: Colors.red[500],
           ),
           const Text('87'),
@@ -55,7 +55,7 @@ class PantallaDos extends StatelessWidget {
     Widget textSection = const Padding(
       padding: EdgeInsets.all(32),
       child: Text(
-        'Hola, soy Aaron Mota y me encanta comprar frutas en Fruteria Don Manuel ya que tienen la fruta mas fresca y barata de toda la ciudad, llevo comprando aqui desde que la descubri hace 5 años gracias a su pagina y aplicacion web con la cual se me ha facilitado saber todo sobre la tienda y sus GRANDIOSOS descuentos 😻😻😻 ',
+        'Hola soy Jesus y quiero decir que INNOVASPORT es la mejor tienda deportiva ya que aparte de contar con los mejores descuentos en ropa, calzado y accesorios, tiene lo que necesitas para tus entrenamientos y disfrutar de la moda en diferetes marcas ya que tambien para ver a mundial donde juega el Bicho',
         softWrap: true,
       ),
     );
@@ -80,7 +80,7 @@ class PantallaDos extends StatelessWidget {
               bottomLeft: Radius.circular(25)),
         ),
         elevation: 0.00,
-        backgroundColor: Colors.lightGreen[500],
+        backgroundColor: Colors.blue[500],
       ),
       endDrawer: Drawer(
         child: ListView(
@@ -89,22 +89,22 @@ class PantallaDos extends StatelessWidget {
           children: [
             const UserAccountsDrawerHeader(
               // <-- SEE HERE
-              decoration: BoxDecoration(color: Colors.lightGreen),
+              decoration: BoxDecoration(color: Colors.red),
               accountName: Text(
-                "Aaron Mota",
+                "Jesus Jurado",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
               ),
               accountEmail: Text(
-                "AaronMR@gmail.com",
+                "jesusjuradogarcia@gmail.com",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
               ),
               currentAccountPicture: CircleAvatar(
                 backgroundImage: NetworkImage(
-                    'https://raw.githubusercontent.com/AaronMotaR/img_proyecto/main/user.jpg'),
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJM6amFMbWf5pfxhrFDw8QxbVjPIlv7Nf_g&usqp=CAU'),
               ),
             ),
             ListTile(
@@ -129,7 +129,7 @@ class PantallaDos extends StatelessWidget {
               leading: Icon(
                 Icons.coffee,
               ),
-              title: const Text('Licuados'),
+              title: const Text('proveedores'),
               onTap: () {
                 Navigator.pushNamed(context, '/t3');
               },
@@ -138,7 +138,7 @@ class PantallaDos extends StatelessWidget {
               leading: Icon(
                 Icons.sell,
               ),
-              title: const Text('Ventas'),
+              title: const Text('carrito'),
               onTap: () {
                 Navigator.pushNamed(context, '/t4');
               },
@@ -149,7 +149,7 @@ class PantallaDos extends StatelessWidget {
       body: ListView(
         children: [
           Image.network(
-            'https://raw.githubusercontent.com/AaronMotaR/img_proyecto/main/user.jpg',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgJM6amFMbWf5pfxhrFDw8QxbVjPIlv7Nf_g&usqp=CAU',
             width: 600,
             height: 240,
             fit: BoxFit.cover,

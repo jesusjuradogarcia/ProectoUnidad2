@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:mota/inicio.dart';
-import 'package:mota/pag1.dart';
-import 'package:mota/pag2.dart';
-import 'package:mota/pag3.dart';
-import 'package:mota/pag4.dart';
-import 'package:mota/t1.dart';
-import 'package:mota/t2.dart';
-import 'package:mota/t3.dart';
-import 'package:mota/t4.dart';
+import 'package:jesus/inicio.dart';
+import 'package:jesus/pag1.dart';
+import 'package:jesus/pag2.dart';
+import 'package:jesus/pag3.dart';
+import 'package:jesus/pag4.dart';
+import 'package:jesus/t1.dart';
+import 'package:jesus/t2.dart';
+import 'package:jesus/t3.dart';
+import 'package:jesus/t4.dart';
 
 void main() {
   runApp(MaterialApp(
